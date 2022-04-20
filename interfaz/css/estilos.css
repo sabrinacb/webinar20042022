@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #472425;
+    background-color: #f8f5ef;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-size: 200px;
+}
+
+h2 {
+    font-size: 90px;
+    text-align: right;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+img { width: 10%; animation: miAnimacion 10s infinite alternate;}
+
+@keyframes miAnimacion {
+    
+from { transform:rotate(0deg);}
+
+to {transform:rotate(90deg);}
+
+
+}
+
+h2,p { margin: 0;}
+
+p { width: 50%;}
+
+a {text-decoration:none;
+   border: 1px dashed #472425;
+   padding: 16px;
+   border-radius: 50px;
+   color:#472425;
+   transition: all 2s;
+
+
+}
+
+a:hover {
+
+    background-color:#472425;
+    color:#f8f5ef;
+    border-color: rgb(126, 102, 91);
+}
+
+main {
+
+width:85%;
+margin:auto;
+
+
+}
+
+
+
+
+
+
+
+
+div {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content:space-between;
+
+
+
+}
+
+
